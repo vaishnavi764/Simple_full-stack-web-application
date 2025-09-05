@@ -11,7 +11,7 @@ app.secret_key = os.environ.get("SESSION_SECRET", "dev-secret-key")
 
 @app.route('/')
 def index():
-    """Serve the main index page"""
+    """Serve the main index pag"""
     app.logger.info("Serving index page")
     return render_template('index.html')
 
